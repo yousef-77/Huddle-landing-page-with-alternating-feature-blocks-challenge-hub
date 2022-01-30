@@ -1,0 +1,246 @@
+
+*{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+body{
+    margin: 0px !important;
+    height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-rows: repeat(3 , 1fr) 200px auto ;
+    
+}
+.header{
+    background-color: rgb(242 251 253);
+    background-size: 100%;
+    margin-bottom: 70px;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 30px 60px;
+    text-align: center;
+}
+.header-try{
+   background-color: white;
+   border-radius:40px ;
+   box-shadow: 3px 4px 5px 0px #5a59593d;
+   padding: 12px 64px 12px 64px;
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+   transition: ease-out 0.3s;
+}
+.header-try:hover{
+    background-color:rgb(255 77 186) ;
+    color: white ;
+}
+.discription{
+    margin-left: 25px;
+    width: 540px;
+    font-size: 17px;
+    color: rgb(94 103 106);
+    font-weight: 200px;
+    margin-top: 20px;
+}
+h3{
+    color: black;
+    font-size: 40px;
+}
+.start-free{
+    width: 270px;
+    text-align: center;
+    margin-top: 29px;
+    padding: 10px 0px;
+    border-radius:40px ;
+    box-shadow: 3px 4px 5px 0px #5a59593d;
+    background-color:rgb(255 81 189);
+    color: white;
+    cursor: pointer;
+}
+.header>figure>img{
+    display: block;
+    width:650px ;
+    height:450px;
+    transition: transform 250ms ease;
+}
+@media screen and (max-width:1200px) {
+    body{
+        width: 200px;
+    }
+}
+img{
+    transition: transform 250ms ease;
+}
+img:hover{
+    transform: scale(1.05);
+}
+.main-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-image: url(/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg);
+}
+/* 
+ part-1
+*/
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    margin: auto;
+    box-shadow:  rgb(155 148 148 / 15%) 0px 0px 9px 2px;
+    border-radius: 10px;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom:50px ;
+}
+.part-1
+{
+    margin-bottom: 185px;
+}
+.part-2{
+    margin-top: -120px;
+}
+.part-3{
+    margin-top: -300px;
+}
+.part-1>img,
+.part-2>img,
+.part-3>img{
+    width: 500px;
+    height: 360px;
+}
+.description>.title{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 14px ;
+}
+.part-1>.description,
+.part-2>.description,
+.part-3>.description{
+    margin-top: 0px;
+    width: 500px;
+    margin: auto;
+    color: #808d99;
+    font-weight: 100;
+}
+/* 
+ footer-card
+*/
+.footer-card{
+    box-shadow:  rgb(155 148 148 / 15%) 0px 0px 9px 5px;
+    display: flex;
+    padding: 60px 150px;
+    background-color: white;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    top: 81px;
+    transition: transform 0.4s ease-in ;
+}
+.footer-card:hover{
+    transform: translateY(-20px) scale(1.1);
+}
+.footer-card>p{
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    
+}
+.parent{
+    margin-bottom: 10px;
+   
+}
+.fb{
+    text-align: center;
+    padding: 15px 75px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    background-color:rgb(255 77 186) ;
+    border-radius:30px ;
+    text-decoration: none;
+    transition: transform 0.6s ease-in ;
+}
+.fb:hover{
+    color: rgb(0 37 46);
+}
+/* 
+  footer
+*/
+.footer-container{
+    background-color: rgb(0 37 46);
+    color: white;
+    padding: 160px 130px 60px 130px ;
+}
+.footer-container>img{
+    padding-bottom: 10px;
+    display: block !important;
+}
+.footer-description{
+    color: rgb(180, 192, 195);
+    font-size: 15px;
+    display: flex;
+    gap: 125px;
+}
+.footer-contact-container{
+    display: inline-block;
+}
+.about-us{
+    display: inline-block;
+}
+.footer-contact{
+    display: flex;
+    font-weight: 100;
+    width: 340px;
+    gap: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.3rem;
+    margin-top: 25px;
+}
+.fas,
+.far{
+    color: white;
+    transition: transform 250ms ease;
+}
+.fas:hover,
+.far:hover{
+    transform: scale(1.2);
+    transition: transform .4s ease;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.fab{
+    height: fit-content;
+    transition: transform .4s ease;
+    cursor: pointer;
+}
+.fab:hover{
+    transform: translateY(-20px) scale(1.2);
+    color: rgb(242 251 253);
+}
+.about-us>p,
+.contact-us>p{
+    cursor: pointer;
+}
+.about-us>p:hover,
+.contact-us>p:hover{
+    color: rgb(255 77 186); 
+}
+.icons{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 15px;
+}
